@@ -4,7 +4,7 @@
 
 ## Overview
 
-Simple task manager web application where users can add, update or delete tasks.
+Simple task manager web application where users can view, add, update or delete tasks.
 
 
 
@@ -14,6 +14,12 @@ Simple task manager web application where users can add, update or delete tasks.
 - H2 Database
 - Thymeleaf
 
+
+## Requirements
+Ensure you have the following installed:
+- Java 21
+- Maven
+- Git
 
 ## Setup Instructions
 1. **Clone the repository**:
@@ -36,14 +42,14 @@ spring.datasource.password=your_password
 ```
 
 
-3. **To view**:
+3. **Open your browser and go to**:
 
 ```bash
    http://localhost:8080/
    ```
 
 
-4. **To check h2 Database**
+4. **To Access the H2 Database Console**
 ```bash
    http://localhost:8080/h2-console
    ```
